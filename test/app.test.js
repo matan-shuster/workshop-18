@@ -14,7 +14,7 @@ describe('Testing the Cube Functions', () => {
     done();
   });
 
-  it('3. The volume of the Cube', done => {
+  it('3. The volume of the Cube bla', done => {
     let c3 = new Cube(7);
     expect(c3.getVolume()).to.equal(343);
     done();
